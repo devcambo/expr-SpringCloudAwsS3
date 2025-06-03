@@ -1,0 +1,11 @@
+spring:
+  application:
+    name: expr-SpringCloudAwsS3
+  cloud:
+    aws:
+      credentials:
+        access-key: "${AWS_ACCESS_KEY:000000000000}"
+        secret-key: "${AWS_SECRET_KEY:000000000000}"
+      s3:
+        region: "${AWS_REGION:us-east-1}"
+        endpoint: "${AWS_ENDPOINT:http://s3.localhost.localstack.cloud:4566}"
