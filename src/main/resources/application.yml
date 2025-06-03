@@ -8,4 +8,4 @@ spring:
         secret-key: "${AWS_SECRET_KEY:000000000000}"
       s3:
         region: "${AWS_REGION:us-east-1}"
-        endpoint: "${AWS_ENDPOINT:http://s3.localhost.localstack.cloud:4566}"
+        endpoint: "${AWS_ENDPOINT:http://s3.localhost.localstack.cloud:4566}" #http://my-bucket.s3.localhost.localstack.cloud:4566/9527ceb2-1c6b-4e27-ae6c-161b44681a59.png
